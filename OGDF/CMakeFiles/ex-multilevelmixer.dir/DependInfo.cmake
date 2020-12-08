@@ -1,0 +1,24 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/homes/eva/xp/xpagac06/GAL/OGDF/doc/examples/layout/multilevelmixer.cpp" "/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/ex-multilevelmixer.dir/doc/examples/layout/multilevelmixer.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "include"
+  "include/coin"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/OGDF.dir/DependInfo.cmake"
+  "/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/COIN.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

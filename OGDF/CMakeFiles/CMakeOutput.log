@@ -1,0 +1,257 @@
+The system is: Linux - 4.19.142 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/3.17.3/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_2324c/fast && /bin/gmake  -f CMakeFiles/cmTC_2324c.dir/build.make CMakeFiles/cmTC_2324c.dir/build
+gmake[1]: Entering directory `/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2324c.dir/testCXXCompiler.cxx.o
+/usr/local/bin/c++     -o CMakeFiles/cmTC_2324c.dir/testCXXCompiler.cxx.o -c /homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_2324c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2324c.dir/link.txt --verbose=1
+/usr/local/bin/c++       -rdynamic CMakeFiles/cmTC_2324c.dir/testCXXCompiler.cxx.o  -o cmTC_2324c 
+gmake[1]: Leaving directory `/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_e7620/fast && /bin/gmake  -f CMakeFiles/cmTC_e7620.dir/build.make CMakeFiles/cmTC_e7620.dir/build
+gmake[1]: Entering directory `/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/c++    -v -o CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+Target: x86_64-linux
+Configured with: ../configure --build=x86_64-linux --with-arch=westmere --with-tune=sandybridge --with-thread=posix --with-as=/usr/local/bin/as --with-ld=/usr/local/bin/ld --with-system-zlib --program-suffix=-7.5
+Thread model: posix
+gcc version 7.5.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=sandybridge' '-march=westmere'
+ /usr/local/libexec/gcc/x86_64-linux/7.5.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=sandybridge -march=westmere -auxbase-strip CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccFovynz.s
+GNU C++14 (GCC) version 7.5.0 (x86_64-linux)
+	compiled by GNU C version 7.5.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 0.8.2, isl version none
+warning: MPC header version 0.8.2 differs from library version 1.0.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0
+ /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0/x86_64-linux
+ /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0/backward
+ /usr/local/lib/gcc/x86_64-linux/7.5.0/include
+ /usr/local/include
+ /usr/local/lib/gcc/x86_64-linux/7.5.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 7.5.0 (x86_64-linux)
+	compiled by GNU C version 7.5.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 0.8.2, isl version none
+warning: MPC header version 0.8.2 differs from library version 1.0.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 5b38e565d321a6e671bb4f90160f78ac
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=sandybridge' '-march=westmere'
+ /usr/local/bin/as -v --64 -o CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFovynz.s
+GNU assembler version 2.27 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.27
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-linux/7.5.0/:/usr/local/libexec/gcc/x86_64-linux/7.5.0/:/usr/local/libexec/gcc/x86_64-linux/:/usr/local/lib/gcc/x86_64-linux/7.5.0/:/usr/local/lib/gcc/x86_64-linux/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/bin/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-linux/7.5.0/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=sandybridge' '-march=westmere'
+Linking CXX executable cmTC_e7620
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7620.dir/link.txt --verbose=1
+/usr/local/bin/c++      -v -rdynamic CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e7620 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-linux/7.5.0/lto-wrapper
+Target: x86_64-linux
+Configured with: ../configure --build=x86_64-linux --with-arch=westmere --with-tune=sandybridge --with-thread=posix --with-as=/usr/local/bin/as --with-ld=/usr/local/bin/ld --with-system-zlib --program-suffix=-7.5
+Thread model: posix
+gcc version 7.5.0 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-linux/7.5.0/:/usr/local/libexec/gcc/x86_64-linux/7.5.0/:/usr/local/libexec/gcc/x86_64-linux/:/usr/local/lib/gcc/x86_64-linux/7.5.0/:/usr/local/lib/gcc/x86_64-linux/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/bin/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-linux/7.5.0/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e7620' '-shared-libgcc' '-mtune=sandybridge' '-march=westmere'
+ /usr/local/libexec/gcc/x86_64-linux/7.5.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-linux/7.5.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-linux/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW7jEsE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e7620 /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/crt1.o /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-linux/7.5.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-linux/7.5.0 -L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64 -L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib -L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../.. CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-linux/7.5.0/crtend.o /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e7620' '-shared-libgcc' '-mtune=sandybridge' '-march=westmere'
+gmake[1]: Leaving directory `/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0]
+    add: [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0/x86_64-linux]
+    add: [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0/backward]
+    add: [/usr/local/lib/gcc/x86_64-linux/7.5.0/include]
+    add: [/usr/local/include]
+    add: [/usr/local/lib/gcc/x86_64-linux/7.5.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0] ==> [/usr/local/include/c++/7.5.0]
+  collapse include dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0/x86_64-linux] ==> [/usr/local/include/c++/7.5.0/x86_64-linux]
+  collapse include dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0/backward] ==> [/usr/local/include/c++/7.5.0/backward]
+  collapse include dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/include] ==> [/usr/local/lib/gcc/x86_64-linux/7.5.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/include-fixed] ==> [/usr/local/lib/gcc/x86_64-linux/7.5.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include/c++/7.5.0;/usr/local/include/c++/7.5.0/x86_64-linux;/usr/local/include/c++/7.5.0/backward;/usr/local/lib/gcc/x86_64-linux/7.5.0/include;/usr/local/include;/usr/local/lib/gcc/x86_64-linux/7.5.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/gmake cmTC_e7620/fast && /bin/gmake  -f CMakeFiles/cmTC_e7620.dir/build.make CMakeFiles/cmTC_e7620.dir/build]
+  ignore line: [gmake[1]: Entering directory `/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/c++    -v -o CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [Target: x86_64-linux]
+  ignore line: [Configured with: ../configure --build=x86_64-linux --with-arch=westmere --with-tune=sandybridge --with-thread=posix --with-as=/usr/local/bin/as --with-ld=/usr/local/bin/ld --with-system-zlib --program-suffix=-7.5]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=sandybridge' '-march=westmere']
+  ignore line: [ /usr/local/libexec/gcc/x86_64-linux/7.5.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=sandybridge -march=westmere -auxbase-strip CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccFovynz.s]
+  ignore line: [GNU C++14 (GCC) version 7.5.0 (x86_64-linux)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.0.0  MPFR version 3.1.1  MPC version 0.8.2  isl version none]
+  ignore line: [warning: MPC header version 0.8.2 differs from library version 1.0.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0]
+  ignore line: [ /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0/x86_64-linux]
+  ignore line: [ /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../include/c++/7.5.0/backward]
+  ignore line: [ /usr/local/lib/gcc/x86_64-linux/7.5.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/local/lib/gcc/x86_64-linux/7.5.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 7.5.0 (x86_64-linux)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.0.0  MPFR version 3.1.1  MPC version 0.8.2  isl version none]
+  ignore line: [warning: MPC header version 0.8.2 differs from library version 1.0.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 5b38e565d321a6e671bb4f90160f78ac]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=sandybridge' '-march=westmere']
+  ignore line: [ /usr/local/bin/as -v --64 -o CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFovynz.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.27]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-linux/7.5.0/:/usr/local/libexec/gcc/x86_64-linux/7.5.0/:/usr/local/libexec/gcc/x86_64-linux/:/usr/local/lib/gcc/x86_64-linux/7.5.0/:/usr/local/lib/gcc/x86_64-linux/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-linux/7.5.0/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=sandybridge' '-march=westmere']
+  ignore line: [Linking CXX executable cmTC_e7620]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7620.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/c++      -v -rdynamic CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e7620 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-linux/7.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-linux]
+  ignore line: [Configured with: ../configure --build=x86_64-linux --with-arch=westmere --with-tune=sandybridge --with-thread=posix --with-as=/usr/local/bin/as --with-ld=/usr/local/bin/ld --with-system-zlib --program-suffix=-7.5]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-linux/7.5.0/:/usr/local/libexec/gcc/x86_64-linux/7.5.0/:/usr/local/libexec/gcc/x86_64-linux/:/usr/local/lib/gcc/x86_64-linux/7.5.0/:/usr/local/lib/gcc/x86_64-linux/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-linux/7.5.0/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/:/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e7620' '-shared-libgcc' '-mtune=sandybridge' '-march=westmere']
+  link line: [ /usr/local/libexec/gcc/x86_64-linux/7.5.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-linux/7.5.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-linux/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW7jEsE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e7620 /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/crt1.o /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-linux/7.5.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-linux/7.5.0 -L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64 -L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib -L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../.. CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-linux/7.5.0/crtend.o /usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/crtn.o]
+    arg [/usr/local/libexec/gcc/x86_64-linux/7.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/libexec/gcc/x86_64-linux/7.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/libexec/gcc/x86_64-linux/7.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccW7jEsE.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e7620] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-linux/7.5.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/x86_64-linux/7.5.0] ==> dir [/usr/local/lib/gcc/x86_64-linux/7.5.0]
+    arg [-L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64] ==> dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64]
+    arg [-L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../lib64] ==> dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib] ==> dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib]
+    arg [-L/usr/local/lib/gcc/x86_64-linux/7.5.0/../../..] ==> dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../..]
+    arg [CMakeFiles/cmTC_e7620.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/lib/gcc/x86_64-linux/7.5.0/crtend.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/local/lib/gcc/x86_64-linux/7.5.0] ==> [/usr/local/lib/gcc/x86_64-linux/7.5.0]
+  collapse library dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib/../lib64] ==> [/usr/local/x86_64-linux/lib64]
+  collapse library dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../lib64] ==> [/usr/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../../../x86_64-linux/lib] ==> [/usr/local/x86_64-linux/lib]
+  collapse library dir [/usr/local/lib/gcc/x86_64-linux/7.5.0/../../..] ==> [/usr/local/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/local/lib/gcc/x86_64-linux/7.5.0;/usr/local/x86_64-linux/lib64;/usr/local/lib64;/lib64;/usr/lib64;/usr/local/x86_64-linux/lib;/usr/local/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test has_sse3_pmmintrin succeeded with the following output:
+Change Dir: /homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_05b58/fast && /bin/gmake  -f CMakeFiles/cmTC_05b58.dir/build.make CMakeFiles/cmTC_05b58.dir/build
+gmake[1]: Entering directory `/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05b58.dir/src.cxx.o
+/usr/local/bin/c++    -march=native -Dhas_sse3_pmmintrin   -o CMakeFiles/cmTC_05b58.dir/src.cxx.o -c /homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_05b58
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05b58.dir/link.txt --verbose=1
+/usr/local/bin/c++   -march=native -Dhas_sse3_pmmintrin    -rdynamic CMakeFiles/cmTC_05b58.dir/src.cxx.o  -o cmTC_05b58 
+gmake[1]: Leaving directory `/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <pmmintrin.h>
+int main() {
+	__m128d a = _mm_set1_pd(42), b = _mm_set1_pd(23);
+	_mm_hadd_pd(a, b);
+	return 0;
+}
+Performing C++ SOURCE FILE Test has_linux_cpu_macros succeeded with the following output:
+Change Dir: /homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_ca4ec/fast && /bin/gmake  -f CMakeFiles/cmTC_ca4ec.dir/build.make CMakeFiles/cmTC_ca4ec.dir/build
+gmake[1]: Entering directory `/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ca4ec.dir/src.cxx.o
+/usr/local/bin/c++    -march=native -Dhas_linux_cpu_macros   -o CMakeFiles/cmTC_ca4ec.dir/src.cxx.o -c /homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ca4ec
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca4ec.dir/link.txt --verbose=1
+/usr/local/bin/c++   -march=native -Dhas_linux_cpu_macros    -rdynamic CMakeFiles/cmTC_ca4ec.dir/src.cxx.o  -o cmTC_ca4ec 
+gmake[1]: Leaving directory `/homes/eva/xp/xpagac06/GAL/OGDF/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sched.h>
+int main() {
+	cpu_set_t mask;
+	CPU_ZERO(&mask);
+	return 0;
+}
