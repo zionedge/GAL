@@ -1,1 +1,0 @@
-/usr/local/bin/c++   -march=native -O3 -DNDEBUG  -rdynamic CMakeFiles/ex-energybased.dir/doc/examples/layout/energybased.cpp.o  -o doc/examples/layout/ex-energybased  libOGDF.a libCOIN.a -lpthread 
