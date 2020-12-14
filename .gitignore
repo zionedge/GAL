@@ -1,1 +1,4 @@
 OGDF/
+karger.o
+gal
+generate_gml.o

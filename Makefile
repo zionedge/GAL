@@ -1,5 +1,6 @@
 CC=c++
+TARGET=
 
 hellomake: ./OGDF/doc/examples/basic/manual.cpp
-	$(CC) -IOGDF/include -o main.o -c main.cpp
-	$(CC) -o gal -L./OGDF main.o -lOGDF -lCOIN -pthread
+	$(CC) -IOGDF/include -o $(TARGET).o -c $(TARGET).cpp
+	$(CC) -o gal -L./OGDF $(TARGET).o -lOGDF -lCOIN -pthread
