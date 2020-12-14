@@ -2,3 +2,4 @@ OGDF/
 karger.o
 gal
 generate_gml.o
+console_app.o
