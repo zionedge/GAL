@@ -71,7 +71,7 @@ vector<ogdf::Graph> GetGraphsFromFile(string filename) {
             cerr << "Could not load file!" << endl;
             exit (1);
         }
-        cout<< entry.path() << endl;
+        //cout<< entry.path() << endl;
         Graphs.push_back(G);     
     }
 

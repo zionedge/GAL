@@ -60,10 +60,14 @@ int main(int argc, char *argv[]) {
         string file;
 
         while (getline(MyReadFile, myText)) {
-            const char * v = &myText[0];
-            const char * e = &myText[2];
+            char space(' ');
+            vector<string> ve;
+            istringstream ss(myText);
+            for(string s; ss >> s;)
+                ve.push_back(s);
+
             ogdf::Graph G;
-            ogdf::randomSimpleConnectedGraph(G, atoi(v), atoi(e));
+            ogdf::randomSimpleConnectedGraph(G, stoi(ve[0]), stoi(ve[1]));
             file = "graphs/graph" + to_string(i);
             file = file + ".gml";
             i++;
