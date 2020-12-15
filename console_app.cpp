@@ -4,31 +4,50 @@
 #include <string>
 #include <vector>
 #include <filesystem>
+#include <chrono>
 
 //OGDF
 #include <ogdf/basic/graph_generators.h>
 #include <ogdf/basic/Graph_d.h>
 #include <ogdf/fileformats/GraphIO.h>
 
+//files
+#include "stoer_wagner.hpp"
+#include "karger.hpp"
+
 
 using namespace std;
 
-int GetMinCutStoerWagner() {
-    int min_cut;
+void GetMinCutStoerWagner(vector<ogdf::Graph> graphs) {
+    int cut;
+    for (ogdf::Graph G : graphs) {
+        
+        auto start = chrono::high_resolution_clock::now();
+        cut = StoerWagnerAlgorithm(G);
+        auto stop = chrono::high_resolution_clock::now();
 
-    return min_cut;
+        chrono::duration<double> duration = (stop - start) * 1000;
+
+        cout << "Graph StoerWagner MinCut is: " << cut << ", Duration was: "<< duration.count() << "ms" << endl;
+    }
 }
 
-int GetMinCutMaxFlowMinCut() {
-    int min_cut;
-
-    return min_cut;
+void GetMinCutMaxFlowMinCut() {
+    
 }
 
-int GetMinCutKarger() {
-    int min_cut;
+void GetMinCutKarger(vector<ogdf::Graph> graphs) {
+    int cut;
+    for (ogdf::Graph G : graphs) {
+    
+        auto start = chrono::high_resolution_clock::now();
+        cut = KargerApproximation(G);
+        auto stop = chrono::high_resolution_clock::now();
 
-    return min_cut;
+        chrono::duration<double> duration = (stop - start) * 1000;
+
+        cout << "Graph Karger MinCut is: " << cut << ", Duration was: "<< duration.count() << "ms" << endl;
+    }
 }
 
 vector<ogdf::Graph> GetGraphsFromFile(string filename) {
@@ -52,6 +71,7 @@ vector<ogdf::Graph> GetGraphsFromFile(string filename) {
             cerr << "Could not load file!" << endl;
             exit (1);
         }
+        cout<< entry.path() << endl;
         Graphs.push_back(G);     
     }
 
@@ -97,7 +117,7 @@ int main (int argc, char * argv[]) {
     {
     case 1:
         /* Stoer-Wagner*/
-        GetMinCutStoerWagner();
+        GetMinCutStoerWagner(graphs);
         break;
 
 
@@ -107,6 +127,7 @@ int main (int argc, char * argv[]) {
 
     case 3:
         /* Karger */
+        GetMinCutKarger(graphs);
         break;
     
     default:

@@ -24,22 +24,9 @@ double ComputeT (int count) {
     return comb_number * log(count);
 }
 
-int KargerApproximation() {
+int KargerApproximation(ogdf::Graph G) {
 
     vector <ogdf::Graph> AproximatedGraphs;
-
-    ogdf::Graph G;
-      ogdf::GraphAttributes GA(G,
-      ogdf::GraphAttributes::nodeGraphics |
-      ogdf::GraphAttributes::edgeGraphics |
-      ogdf::GraphAttributes::nodeLabel |
-      ogdf::GraphAttributes::edgeStyle |
-      ogdf::GraphAttributes::nodeStyle |
-      ogdf::GraphAttributes::nodeTemplate);
-    if (!ogdf::GraphIO::read(GA, G, "graphs/graph0.gml", ogdf::GraphIO::readGML)) {
-        cerr << "Could not load file!" << endl;
-        return 1;
-    }
 
     int edge_count = G.numberOfEdges();
     int verticies_count = G.numberOfNodes();
@@ -49,7 +36,6 @@ int KargerApproximation() {
 
     for (int i = 0; i < (int) repetitions; i++) {
         ogdf::Graph GI = G;
-        cout << "new" << endl;
         while (GI.numberOfNodes() > 2) {
             ogdf::edge e = GI.chooseEdge();
             GI.contract(e);
@@ -72,13 +58,5 @@ int KargerApproximation() {
         }
     }
 
-    cout << "Minimal cut by Karger Approximation is: " << min_cut << endl;
-
-    return 0;
-}
-
-int main() {
-    KargerApproximation();
-
-    return 0;
+    return min_cut;
 }
